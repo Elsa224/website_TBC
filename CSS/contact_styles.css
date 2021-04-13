@@ -1,0 +1,191 @@
+/* Montserrat and Ubuntu fonts */
+@font-face
+{
+    font-family: 'Montserrat-Black';
+    src: url("../fonts/Montserrat/Montserrat-Black.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: 'Montserrat-Bold';
+    src: url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: 'Montserrat-Regular';
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: 'Ubuntu-Bold';
+    src: url("../fonts/Ubuntu/Ubuntu-Bold.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: 'Ubuntu-Medium';
+    src: url("../fonts/Ubuntu/Ubuntu-Medium.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: 'Ubuntu-Regular';
+    src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: 'Ubuntu-Light';
+    src: url("../fonts/Ubuntu/Ubuntu-Light.ttf") format("truetype");
+}
+
+
+/* Body */
+
+body
+{
+    font-family: 'Merriweather', serif;
+}
+
+/* Title and navbar */
+.navbar
+{
+    padding: 0 0 4.5rem;
+    background-color: #17a2b8; /*info Bootstrap color*/
+
+}
+
+.navbar-brand
+{
+    font-family: 'Ubuntu-Medium', sans-serif;
+    font-size: 2.5rem;
+    padding: 0 2rem;
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.nav-link
+{
+    font-family: 'Ubuntu-Light', sans-serif;
+    font-size: 1.67rem;
+}
+
+.navbar-brand:hover, .nav-link:hover
+{
+    font-family: 'Alegreya Sans', serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+/*Contact description*/
+
+#contact-description
+{
+	background-color: #17a2b8;
+	font-family: 'Alegreya Sans', 'Merriweather', sans-serif;
+}
+
+#contact-description h1
+{
+	font-size: 3rem;
+}
+
+
+/*Form section*/
+
+#contact-form
+{
+	text-align: center;
+	padding: 10rem 15rem;
+	font-family: 'Montserrat-Regular', 'Ubuntu-Regular', 'Alegreya Sans', sans-serif;
+}
+
+
+/* Footer */
+/* Footer */
+#footer
+{
+    padding-bottom: 6rem;
+    padding-top: 4rem;
+    background-color: #17a2b8;
+    text-align: center;
+}
+
+.footer-link
+{
+    color: #5ED6A3;
+    padding: 2.5rem;
+    /* text-decoration: none; */
+}
+
+.footer-link:hover
+{
+    color: #AFEEEE;
+    font-size: 4rem;
+}
+
+.footer-copyright
+{
+    position: relative;
+    top: 2.6rem;
+    color: #FFF;
+}
+
+.footer-link, .footer-copyright, p.text-end
+{
+    font-family: 'Ubuntu-Regular', 'Montserrat-Regular', sans-serif;
+    font-size: 1.5rem;
+}
+
+/* Pour le lien "Back to top" */
+.text-end   
+{
+    text-align: right;
+    padding-right: 3%;
+}
+
+.text-end a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.text-end a:hover
+{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #AFEEEE;
+}
+
+/* End  */
+
+/*Media Queries*/
+@media (max-width:1028px) 
+{
+    #title
+    {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+fieldset 
+{
+	margin-top: 20px;
+	width: 50%;
+}
+
+fieldset legend
+{
+    font-style: italic;
+}

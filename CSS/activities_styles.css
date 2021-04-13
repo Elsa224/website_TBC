@@ -1,0 +1,280 @@
+/* Montserrat and Ubuntu fonts */
+@font-face
+{
+    font-family: 'Montserrat-Black';
+    src: url("../fonts/Montserrat/Montserrat-Black.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: 'Montserrat-Bold';
+    src: url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: 'Montserrat-Regular';
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: 'Ubuntu-Bold';
+    src: url("../fonts/Ubuntu/Ubuntu-Bold.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: 'Ubuntu-Medium';
+    src: url("../fonts/Ubuntu/Ubuntu-Medium.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: 'Ubuntu-Regular';
+    src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: 'Ubuntu-Light';
+    src: url("../fonts/Ubuntu/Ubuntu-Light.ttf") format("truetype");
+}
+
+
+/* Body */
+body
+{
+    /* text-align: center; */
+    font-family: 'Merriweather', serif;
+    padding-top: 70px;
+}
+
+/* Title and NavBar */
+.navbar
+{
+    padding: 0 0 4.5rem;
+    background-color: #07DEDE; /*info Bootstrap color*/
+
+}
+
+.navbar-brand
+{
+    font-family: 'Ubuntu-Medium', sans-serif;
+    font-size: 2.5rem;
+    padding: 0 2rem;
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.nav-link
+{
+    font-family: 'Ubuntu-Light', sans-serif;
+    font-size: 1.67rem;
+}
+
+.navbar-brand:hover, .nav-link:hover
+{
+    font-family: 'Alegreya Sans', serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+/* Sections */
+.white-section
+{
+    background-color: #fff;
+    color: #000;
+}
+
+.colored-section
+{
+    background-color: #07DEDE;
+    color: #000;
+}
+
+/* Carousel section */
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+/*Activities section*/
+#activities-description
+{
+    font-family: 'Alegreya Sans', 'Merriweather', sans-serif;
+}
+
+#activities-description h1
+{
+    font-size: 3rem;
+    color: #000;
+}
+
+#activities-description p
+{
+    color: #6c757d;
+}
+.carousel
+{
+    margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption
+{
+    bottom: 3rem;
+    z-index: 10;
+}
+
+/* ce que j'ai ajouté */  
+/* .text-start
+{
+    text-align: left;
+} 
+ 
+.text-end
+{
+    text-align: right;
+} */
+  
+/* Declare heights because of positioning of img element */
+.carousel-item
+{
+    height: 32rem;
+    background-color: #07DEDE;
+}
+
+.carousel-item > img 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+
+/* Featurettes section */
+/* .featurette-divider
+{
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+/*} Je n'en ai pas besoin finally donc bye bye*/
+  
+/* Thin out the marketing headings */
+.featurette-heading 
+{
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+}
+
+/* Ce que j'ai ajouté */
+div.row.featurette
+{
+    margin: 6rem 2rem 4rem 3rem;
+    font-family:'Ubuntu-Regular' ;
+}
+
+
+/* 
+.copyright
+{
+    text-align: center;
+} */
+
+/* Footer */
+
+#footer
+{
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    background-color: #07DEDE;
+    text-align: center;
+}
+
+.footer-link
+{
+    color: #06D425;
+    padding: 2.5rem;
+    /* text-decoration: none; */
+}
+
+.footer-link:hover
+{
+    color: #AFEEEE;
+    font-size: 4rem;
+}
+
+.footer-copyright
+{
+    position: relative;
+    top: 2.6rem;
+    color: #FFF;
+}
+
+.footer-link, .footer-copyright, p.text-end
+{
+    font-family: 'Ubuntu-Regular', 'Montserrat-Regular', sans-serif;
+    font-size: 1.5rem;
+}
+
+/* Pour le lien "Back to top" */
+.text-end   
+{
+    text-align: right;
+    padding-right: 3%;
+}
+
+.text-end a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.text-end a:hover
+{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #AFEEEE;
+}
+
+
+/* RESPONSIVE CSS ----- Media Queries
+-------------------------------------------------- */
+  
+@media (min-width: 40em)
+{
+    /* Bump up size of carousel content */
+    .carousel-caption p 
+    {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+  
+    .featurette-heading
+    {
+        font-size: 50px;
+    }
+}
+  
+@media (min-width: 62em) 
+{
+    .featurette-heading
+    {
+        margin-top: 7rem;
+    }
+}
+  
+
+@media (max-width:1028px) 
+{
+    #title
+    {
+        text-align: center;
+    }
+}

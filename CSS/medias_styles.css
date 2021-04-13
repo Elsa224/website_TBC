@@ -1,0 +1,225 @@
+/* Montserrat and Ubuntu fonts */
+@font-face
+{
+    font-family: 'Montserrat-Black';
+    src: url("../fonts/Montserrat/Montserrat-Black.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: 'Montserrat-Bold';
+    src: url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: 'Montserrat-Regular';
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: 'Ubuntu-Bold';
+    src: url("../fonts/Ubuntu/Ubuntu-Bold.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: 'Ubuntu-Medium';
+    src: url("../fonts/Ubuntu/Ubuntu-Medium.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: 'Ubuntu-Regular';
+    src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: 'Ubuntu-Light';
+    src: url("../fonts/Ubuntu/Ubuntu-Light.ttf") format("truetype");
+}
+
+/* Body */
+
+body
+{
+    /* text-align: center; */
+    font-family: 'Merriweather', serif;
+    padding-top: 70px;
+}
+
+
+/*Title and NavBar*/
+.navbar
+{
+    padding: 0 0 4.5rem;
+    background-color: #07DE64; /*info Bootstrap color*/
+
+}
+
+.navbar-brand
+{
+    font-family: 'Ubuntu-Medium', sans-serif;
+    font-size: 2.5rem;
+    padding: 0 2rem;
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.nav-link
+{
+    font-family: 'Ubuntu-Light', sans-serif;
+    font-size: 1.67rem;
+}
+
+.navbar-brand:hover, .nav-link:hover
+{
+    font-family: 'Alegreya Sans', serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Medias Description*/
+
+#medias-description
+{
+    background-color: #07DE64;
+    font-family: 'Alegreya Sans', 'Merriweather', sans-serif;
+}
+
+#medias-description h1
+{
+    font-size: 4rem;
+}
+
+/* Cards Medias Sections */
+
+#medias
+{
+    font-family: 'Alegreya Sans', serif;
+}
+
+#medias p
+{
+    font-family: 'Ubuntu-Regular', 'Alegreya Sans', serif;
+}
+
+/* Hover Bootstrap Cards*/
+.card
+{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    /* padding: 14px 80px 18px 36px; */
+    cursor: pointer;
+}
+
+.card:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    background-color: #10C794; 
+    color: #fff;
+}
+
+
+/* Footer */
+
+#footer
+{
+    padding-bottom: 6rem;
+    padding-top: 4rem;
+    background-color: #07DE64;
+    text-align: center;
+}
+
+.footer-link
+{
+    color: #fff;
+    padding: 2.5rem;
+    /* text-decoration: none; */
+}
+
+.footer-link:hover
+{
+    color: #AFEEEE;
+    font-size: 4rem;
+}
+
+.footer-copyright
+{
+    position: relative;
+    top: 2.6rem;
+    color: #FFF;
+}
+
+.footer-link, .footer-copyright, p.text-end
+{
+    font-family: 'Ubuntu-Regular', 'Montserrat-Regular', sans-serif;
+    font-size: 1.5rem;
+}
+
+/* Pour le lien "Back to top" */
+.text-end   
+{
+    text-align: right;
+    padding-right: 3%;
+}
+
+.text-end a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.text-end a:hover
+{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #AFEEEE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media Queries*/
+@media (max-width:1028px) 
+{
+    #title
+    {
+        text-align: center;
+    }
+}
